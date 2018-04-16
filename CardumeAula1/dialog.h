@@ -2,6 +2,7 @@
 #define DIALOG_H
 
 #include <QDialog>
+#include "ambiente.h"
 
 namespace Ui {
 class Dialog;
@@ -17,6 +18,7 @@ public:
 
 private:
     Ui::Dialog *ui;
+    ambiente amb;
 };
 
 #endif // DIALOG_H
